@@ -9,9 +9,9 @@ def csa():
     return (22 / 7 * ( r1 + r2 ) * l + 22 / 7 * r2 ** 2)
 
 def tsa():
-    return (22 / 7 * (( r1 + r2 ) * l + ( r1 ** 2 + r2 **>
+    return (22 / 7 * (( r1 + r2 ) * l + ( r1 ** 2 + r2 ** 2)))
 def volume():
-    return (1 / 3 * 22 / 7 * h * ( r1 ** 2 + r2 ** 2 + r1>
+    return (1 / 3 * 22 / 7 * h * ( r1 ** 2 + r2 ** 2 + r1 * r2 ))
 
 choice = "p"
 while choice != "q":
